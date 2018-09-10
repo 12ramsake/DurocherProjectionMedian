@@ -1,10 +1,10 @@
 Package: DurocherProjectionMedian
-Title: What the Package Does (one line, title case)
+Title: Calculates the Projection Median of Durocher2009 
 Version: 0.0.0.9000
-Authors@R: person("First", "Last", email = "first.last@example.com", role = c("aut", "cre"))
-Description: What the package does (one paragraph).
+Authors@R: person("Kelly", "Ramsay", email = "12ramsake@gmail.com", role = c("aut", "cre"))
+Description: Calculates an approoximation of the Projection Median of Durocher 2009 in any dimension, using the Monte Carlo algorithms outlined in Durocher et al. 2017. For 2 dimensional data, an exact algorithm is provided, this algorithm is outlined in the MSc. thesis of Kelly Ramsay 2017, University of Manitoba.
 Depends: R (>= 3.4.0)
-License: What license is it under?
+License: CC
 Encoding: UTF-8
 LazyData: true
 RoxygenNote: 6.0.1.9000
