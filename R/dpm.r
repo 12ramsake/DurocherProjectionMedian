@@ -17,5 +17,5 @@ dpm<-function(data,N=10000,method=1,exact2D=F){
   if(exact2D)
     return(projectionMedian2D(data))
   else
-    return(projectionMedianMC(data,N=N,method=method))
+    return(projectionMedianMC_cpp(data,N=N,method=method))
 }

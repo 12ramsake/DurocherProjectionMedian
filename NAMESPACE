@@ -3,3 +3,4 @@
 export(dpm)
 export(projectionMedian2D)
 export(projectionMedianMC)
+export(projectionMedianMC_cpp)
