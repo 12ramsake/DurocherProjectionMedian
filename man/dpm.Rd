@@ -21,7 +21,7 @@ This function allows you to calculate the projection median approximately or exa
 \examples{
 data<-cbind(rnorm(151),rnorm(151))
 dpm(data)
-dpm(data,exact2D=T)
+dpm(data,exact2D=TRUE)
 }
 \keyword{location}
 \keyword{multivariate,}

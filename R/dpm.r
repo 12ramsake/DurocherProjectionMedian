@@ -10,7 +10,7 @@
 #' @examples
 #' data<-cbind(rnorm(151),rnorm(151))
 #' dpm(data)
-#' dpm(data,exact2D=T)
+#' dpm(data,exact2D=TRUE)
 
 
 dpm<-function(data,N=10000,method=1,exact2D=F){
