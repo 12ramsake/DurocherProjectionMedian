@@ -19,7 +19,7 @@ The DESCRIPTION file:
 \author{
 \packageAuthor{DurocherProjectionMedian}
 
-Maintainer: \packageMaintainer{Kelly Ramsay}
+Maintainer: \packageMaintainer{DurocherProjectionMedian}
 }
 \references{
 ~~ Literature or other references for background information ~~
