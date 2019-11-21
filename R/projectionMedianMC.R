@@ -6,7 +6,6 @@
 #' @param method Which Monte Carlo algorithm to use? As per Durocher et. al 2017
 #' @keywords multivariate, robust, location, Monte Carlo
 #' @export
-#' @examples
 #'
 projectionMedianMC<-function(data,N=10000,method=1){
   getMidOrderStat<-function(x,pos){

@@ -8,7 +8,7 @@
 #' @keywords multivariate, robust, location
 #' @export
 #' @examples
-#' data<-cbind(rnorm(151),rnorm(151))
+#' data<-cbind(stats::rnorm(151),stats::rnorm(151))
 #' dpm(data)
 #' dpm(data,exact2D=TRUE)
 

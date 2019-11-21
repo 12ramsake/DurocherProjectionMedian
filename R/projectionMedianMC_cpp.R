@@ -6,16 +6,14 @@
 #' @param method Which Monte Carlo algorithm to use? As per Durocher et. al 2017
 #' @keywords multivariate, robust, location, Monte Carlo
 #' @export
-#' @examples
-#'
 projectionMedianMC_cpp<-function(data,N=10000,method=1){
 
-  x1<-replicate(N,rnorm(ncol(data)))
+  x1<-replicate(N,stats::rnorm(ncol(data)))
   if(method==1){
-    getPM1(x1,data)
+    pm=getPM1(x1,data)
   }
   else{
-    getPM2(x1,data)
+    pm=getPM2(x1,data)
   }
 
   return(pm)

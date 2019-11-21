@@ -12,9 +12,6 @@ projectionMedian2D(data)
 \description{
 This function allows you to calculate the projection median exactly in 2D. Internal function for dpm()
 }
-\examples{
-
-}
 \keyword{location}
 \keyword{multivariate,}
 \keyword{robust,}

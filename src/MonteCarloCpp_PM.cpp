@@ -2,9 +2,8 @@
 //Sys.setenv("PKG_CXXFLAGS"="-std=c++11")
 //#include <Rcpp.h>
 //#include <iostream.h>
-//RcppArmadillo.package.skeleton()
-//[[Rcpp::depends(RcppArmadillo)]]
 #include <RcppArmadillo.h>
+// [[Rcpp::depends(RcppArmadillo)]]
 using namespace Rcpp;
 
 // [[Rcpp::export()]]
@@ -25,6 +24,7 @@ arma::mat getPM1(arma::mat u,arma::mat  data){
   return medians*u.n_rows;
 }
 
+// [[Rcpp::export()]]
 arma::uvec getMedInd(arma::vec curr_col,double med,bool even){
   
   arma::uvec index;

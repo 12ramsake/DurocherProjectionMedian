@@ -16,9 +16,6 @@ projectionMedianMC_cpp(data, N = 10000, method = 1)
 \description{
 This function allows you to calculate the projection median approximately or exactly in 2D.
 }
-\examples{
-
-}
 \keyword{Carlo}
 \keyword{Monte}
 \keyword{location,}

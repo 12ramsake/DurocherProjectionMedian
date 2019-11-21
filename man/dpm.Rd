@@ -19,10 +19,10 @@ dpm(data, N = 10000, method = 1, exact2D = F)
 This function allows you to calculate the projection median approximately or exactly in 2D.
 }
 \examples{
-data<-cbind(rnorm(151),rnorm(151))
+data<-cbind(stats::rnorm(151),stats::rnorm(151))
 dpm(data)
 dpm(data,exact2D=TRUE)
 }
 \keyword{location}
 \keyword{multivariate,}
-\keyword{robust,}
+\keyword{robust}
