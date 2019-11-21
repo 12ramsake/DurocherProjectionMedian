@@ -18,7 +18,6 @@ The DESCRIPTION file:
 }
 \author{
 \packageAuthor{DurocherProjectionMedian}
-
 Maintainer: \packageMaintainer{DurocherProjectionMedian}
 }
 \references{
