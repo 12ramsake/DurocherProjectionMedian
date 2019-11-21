@@ -3,10 +3,9 @@ Type: Package
 Title: Compute the projection median
 Version: 1.0
 Date: 2019-11-20
-Maintainer: Who to complain to
-     <12ramsake@gmail.com>
-Description: Compute the projection median via methods described in Durocher 2017 and Ramsay 2017.
-              Including Monte Carlo and exact methods
+Author: DurocherProjectionMedian
+Maintainer: Who to complain to <12ramsake@gmail.com>
+Description: Compute the projection median via methods described in Durocher 2017 and Ramsay 2017. Including Monte Carlo and exact methods
 License: GPL-2
 Imports: 
     Rcpp (>= 1.0.2),

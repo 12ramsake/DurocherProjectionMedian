@@ -25,4 +25,4 @@ dpm(data,exact2D=TRUE)
 }
 \keyword{location}
 \keyword{multivariate,}
-\keyword{robust}
+\keyword{robust,}
