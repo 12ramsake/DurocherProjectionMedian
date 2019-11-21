@@ -22,7 +22,5 @@ Maintainer: \packageMaintainer{DurocherProjectionMedian}
 \references{
 ~~ Literature or other references for background information ~~
 }
-~~ Optionally other standard keywords, one per line, ~~
-~~ from file KEYWORDS in the R documentation directory ~~
 \keyword{package}
 \examples{###}
