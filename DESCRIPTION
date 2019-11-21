@@ -3,7 +3,7 @@ Type: Package
 Title: Compute the projection median
 Version: 1.0
 Date: 2019-11-20
-Author: Kelly Ramsay
+Author: DurocherProjectionMedian
 Maintainer: Who to complain to
      <12ramsake@gmail.com>
 Description: Compute the projection median via methods described in Durocher 2017 and Ramsay 2017.
